@@ -4,7 +4,7 @@ body {
 }
 
 header {
-  background-color: #B9E3C6;
+  background-color: #FFFFFF;
   border-radius: 10px;
   padding: 50px;
 }
@@ -19,31 +19,41 @@ header {
 	display: flex;
   background: #FFFFFF;
 	flex-wrap: wrap;
+  flex-direction: row;
+
 }
+
+
 
 .news {
   width: 300px;
 	margin: 5px;
 	padding: 10px;
   background-color: #FFFFFF;
-	border: 1px solid lightgrey;
+	border: 1px solid #C2CAD6;
+  border-radius: 10px;
 }
 
 img {
 	max-width: 300px;
+  height: 200px;
 }
 
 h1 {
-  font-family:'Julius Sans One';font-size: 45px; color: #444753;font-weight: normal; text-align: center;
+font-size: 60px;
+font-family: 'Futura';
+color: #FFF;
+text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff0080, 0 0 30px #ff0080, 0 0 40px #ff0080, 0 0 50px #ff0080, 0 0 75px #ff0080;
+text-align: center;
 }
 
 h2 {
-  font-family: 'Julius Sans One'; font-size: 30px; color: ##444753;font-weight: normal; text-align: center;
+  font-family: 'Futura'; font-size: 30px; color: #F484AF;font-weight: lighter; text-align: left;
 }
 
 h3 {
-  font-family:'Julius Sans One';font-size: 21px;font-weight: bold; color: #2A4B89; text-transform: uppercase;
+  font-family:'Futura';font-size: 21px;font-weight: lighter; color: #F4BBD3;
 }
 p {
-  font-family:'Julius Sans One';font-size: 15px; color: #A391E0;
+  font-family:'Futura';font-size: 15px; font-weight: lighter; color: #909090;
 }
