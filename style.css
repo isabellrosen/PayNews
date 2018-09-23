@@ -1,36 +1,74 @@
 
 body {
-  background-color: #FFFFFF;
+  background-color: #E8E0DE;
 }
 
 header {
+	background: url('https://images.unsplash.com/photo-1502920514313-52581002a659?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&dl=christine-roy-343235-unsplash.jpg&s=87d859e645d7c107fd47bae6abf7efd4');
+	text-align: center;
+	width: 100%;
+	height: auto;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	overflow: hidden;
+	border-radius: 0 0 85% 85% / 30%;
+}
+
+
+header .overlay{
+	width: 100%;
+	height: 100%;
+	padding: 50px;
+	color: #FFF;
+  background-image: linear-gradient( 135deg, #9f05ff69 10%, #fd5e086b 100%);
+  justify-content: center;
+  text-align: center;
+
+}
+
+/*header {
   background-color: #FFFFFF;
+  background-image: url(https://images.unsplash.com/photo-1524673450801-b5aa9b621b76?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&dl=icons8-team-643415-unsplash.jpg&s=51c1cced7867672b0e4d8b8ba374136e);
   border-radius: 10px;
-  padding: 50px;
+  padding: 80px;
+}
+*/
+
+backgound-image {
+  object-fit: cover;
 }
 
 .allNews {
 	display: flex;
-  background: #FFFFFF;
+  background: #E8E0DE;
 	flex-wrap: wrap;
 }
 
 .latestNews {
 	display: flex;
-  background: #FFFFFF;
+  background: #E8E0DE;
 	flex-wrap: wrap;
   flex-direction: row;
 
 }
-
-
+ .readMore {
+   font-family: Futura;
+   color: #FFFFFF;
+   background-color: #E8E0DE;
+   padding: 7px;
+   width: 140px;
+   border-style: dotted;
+   border-color: #FFFFFF;
+   border-width: inherit;
+ }
 
 .news {
   width: 300px;
 	margin: 5px;
 	padding: 10px;
-  background-color: #FFFFFF;
-	border: 1px solid #C2CAD6;
+  background-color: #E8E0DE;
+	border: 2px solid #FFFFFF;
   border-radius: 10px;
 }
 
@@ -42,18 +80,28 @@ img {
 h1 {
 font-size: 60px;
 font-family: 'Futura';
-color: #FFF;
-text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff0080, 0 0 30px #ff0080, 0 0 40px #ff0080, 0 0 50px #ff0080, 0 0 75px #ff0080;
+color: #FFFFFF;
 text-align: center;
+font-size: 80px;
+margin-bottom: 30px;
+justify-content: center;
+}
+
+p1 {
+  text-align: center;
+  font-family: 'Futura';
+  color: #FFFFFF;
+  font-weight: 100;
+  margin-bottom: 30px;
 }
 
 h2 {
-  font-family: 'Futura'; font-size: 30px; color: #F484AF;font-weight: lighter; text-align: left;
+  font-family: 'Futura'; font-size: 30px; color: #3B3561;font-weight: lighter; text-align: left;
 }
 
 h3 {
-  font-family:'Futura';font-size: 21px;font-weight: lighter; color: #F4BBD3;
+  font-family:'Futura';font-size: 21px;font-weight: lighter; color: #3B3561;
 }
 p {
-  font-family:'Futura';font-size: 15px; font-weight: lighter; color: #909090;
+  font-family:'Futura';font-size: 13px; font-weight: lighter; color: #909090;
 }
